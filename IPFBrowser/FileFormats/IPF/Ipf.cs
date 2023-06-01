@@ -39,11 +39,11 @@ namespace IPFBrowser.FileFormats.IPF
 
 		public void Close()
 		{
-			if (_stream != null)
-				_stream.Dispose();
+			if (this._stream != null)
+				this._stream.Dispose();
 
-			if (_br != null)
-				_br.Dispose();
+			if (this._br != null)
+				this._br.Dispose();
 		}
 
 		public void Load()
